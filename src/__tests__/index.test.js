@@ -43,6 +43,7 @@ describe("Testing the app endpoints", () => {
     expect(response.body._id).toBeDefined()
     expect(response.body.name).toBeDefined()
     expect(response.body.price).toBeDefined()
+
     _id = response.body._id
   })
   it("should check that the GET /products endpoint returns a list of products", async () => {
